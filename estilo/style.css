@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*Versão Mobile First */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+body{
+    background-color: purple;
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ h2 {
+    font-weight: normal;
+    font-size: small;
+}
+
+span {
+    color: white;
+}
+
+#eml, #pw{
+    margin: 4px;
+    color: white;
+    border-radius: 5px;
+    background-color: purple;
+    padding: 3px;
+}
+
+#iemail, #isenha {
+    border-radius: 7px;
+    border-style: none;
+    background-color: rgba(43, 216, 216, 0.692);
+}
+#entrar{
+    font-size: 20px;
+    width: 225px;
+    padding: 10px;
+    margin: 4px;
+    background-color: rgb(1, 151, 151);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#nosenha {
+    font-size: 20px;
+    width: 225px;
+    padding: 10px;
+    margin: 4px;
+    color: rgb(1, 75, 75);
+    border-radius: 5px;
+    border-color: rgb(0, 136, 136);
+    border-style: solid;
+    border-width: 0.1px;
+}
+
+
