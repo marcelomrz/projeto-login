@@ -12,7 +12,12 @@ body{
 }
 
 main {
+    background: url(../imagens/pexels-hisham-yahya-2909959.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-color: white;
+    background-attachment: local;
     width: 400px;
     text-align: center;
     margin: auto;
@@ -27,6 +32,12 @@ main {
 
 span {
     color: white;
+}
+
+#imag{   
+    height: 100px;
+    border: solid;
+
 }
 
 #eml, #pw{
