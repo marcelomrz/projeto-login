@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
 /*Versão Mobile First */
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
+    padding: 0px;
+    margin: 0px;
 }
 
 body{
@@ -12,50 +17,73 @@ body{
 }
 
 main {
-    background: url(../imagens/pexels-hisham-yahya-2909959.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    /* background: url(../imagens/pexels-hisham-yahya-2909959.jpg); */
     background-color: white;
-    background-attachment: local;
-    width: 400px;
+    width: 300px;
     text-align: center;
     margin: auto;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 20px;
+    margin-top: 115px;
+}
+
+h1 {
+    margin: 10px;
+    
+    
 }
 
  h2 {
     font-weight: normal;
     font-size: small;
+    text-align: justify;
+    padding-left:5px;
 }
 
 span {
-    color: white;
+    color: black;
+    
+}
+
+input {
+    font-size: 1px;
 }
 
 #imag{   
-    height: 100px;
-    border: solid;
-
+    background: url(../imagens/pexels-hisham-yahya-2909959.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px;
+    
 }
 
 #eml, #pw{
-    margin: 4px;
+    margin: 3px;
     color: white;
     border-radius: 5px;
     background-color: purple;
     padding: 3px;
 }
 
+#formi {
+    padding: 6px;
+}
+
+html > body > main > form > div#form > div#pw > input#senha {
+    font-size: 10px;
+}
+
 #iemail, #isenha {
+    width: 240px;
+    font-size: 30px;
     border-radius: 7px;
     border-style: none;
     background-color: rgba(43, 216, 216, 0.692);
 }
 #entrar{
     font-size: 20px;
-    width: 225px;
+    width: 288px;
     padding: 10px;
     margin: 4px;
     background-color: rgb(1, 151, 151);
@@ -66,9 +94,10 @@ span {
 
 #nosenha {
     font-size: 20px;
-    width: 225px;
+    width: 288px;
     padding: 10px;
     margin: 4px;
+    margin-bottom: 40px;
     color: rgb(1, 75, 75);
     border-radius: 5px;
     border-color: rgb(0, 136, 136);
